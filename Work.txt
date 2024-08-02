@@ -1,0 +1,43 @@
+CloudRaid Detecting Distributed Concurrency Bugs via Log Mining and Enhancement
+
+IEEE Transactions on Software Engineering,Volume:48,Issue:2,Issue Date:01.February.2022
+
+
+
+Members
+
+
+
+
+
+
+CREATE TABLE `bdsdetails` (
+`id` int(11) NOT NULL auto_increment,
+RID text,
+bug_id text,	
+creation_date text,	
+component_name	text, 
+product_name	text,
+short_description text,	
+long_description  text,	
+assignee_name	 text,
+reporter_name	 text,
+resolution_category text,	
+resolution_code	 text,
+status_category	 text,
+status_code	text,
+update_date	text,
+quantity_of_votes text,	
+quantity_of_comments text,	
+resolution_date	text,
+bug_fix_time text,	
+severity_category text,	
+severity_code text,
+hcode text,
+PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+
